@@ -1,5 +1,5 @@
 const URL_API = 'https://backend-escola.onrender.com/materia/';
-const URL_API_MATERIA = 'https://backend-escola.onrender.com/professor/';
+const URL_API_PROFESSOR = 'https://backend-escola.onrender.com/professor/';
 const URL_REDICIONAMENTO = './materias.html'
 
 const urlParams = new URLSearchParams(window.location.search);
