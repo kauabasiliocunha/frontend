@@ -1,106 +1,69 @@
-#container{
-    width: 100%;
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #ff6b6b, #f7b733);
+    margin: 0;
+    padding: 20px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    font-size: 150%;
+    height: 100vh;
+    color: white;
 }
 
-#tabela{
-    width: 100%;
-}
-
-.linhaTabela{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    column-gap: 3%;
-    border-bottom: .1rem solid gray;
-}
-
-.item{
-    width: 20%;
-    text-align: center;
-}
-
-.icone{
-    width: 2rem;
-    height: 2rem;
-}
-
-.inicial {
-    width: 5%;
-    text-align: right;
-}
-
-.visualizar, .editar, .excluir{
-    width: 8%;
-    text-align: center;
-}
-
-#areaBotao{
-    width: 100%;
-    height: 3rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-#botaoAdicionar{
-    width: 5rem;
-    height: 5rem;
-    margin-top: 2rem;
-    border-radius: 50%;
-    border: none;
-    background-color: steelblue;
-    font-size: xx-large;
-}
-
-#caixaProfessor, #caixaMateria{
+#container {
     width: 80%;
-    background-color: rgb(251, 251, 251);
-    box-shadow: 1px 1px 1px 1px gray;
-    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparente para um efeito de sobreposição */
     border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-#formulario{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-.separador{
+.separador {
     margin-top: 1rem;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-left: 5%;
 }
 
-.separador > label{
-    width: 25%;
+.separador > label {
+    width: 30%;
 }
-.campo{
+
+.campo {
     background-color: white;
     border: none;
-    border-bottom: .1rem solid gray;
+    border-radius: 5px;
+    padding: 10px;
     width: 50%;
     text-align: center;
+    color: black;
 }
 
-.elementoFormulario{
+.elementoFormulario {
     outline: none;
-    font-size: x-large;
+    font-size: large;
 }
 
-#botaoAdicionar{
+#botaoAdicionar {
     border-radius: 5px;
-    width: 15%;
+    width: 50%;
+    padding: 10px;
+    margin-top: 2rem;
+    border: none;
+    background-color: #f7b733; /* Cor do botão */
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#botaoAdicionar:hover {
+    background-color: #ff6b6b; /* Cor do botão ao passar o mouse */
 }
