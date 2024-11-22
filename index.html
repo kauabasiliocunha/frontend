@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página Inicial</title> <!-- Título da página -->
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background: linear-gradient(45deg, #ff6b6b, #f7b733); /* Gradiente de fundo */
             margin: 0;
             padding: 20px;
             display: flex;
+            flex-direction: column; /* Alinha o conteúdo verticalmente */
             justify-content: center;
             align-items: center;
             height: 100vh;
+            color: white; /* Cor do texto */
+        }
+        h1 {
+            margin-bottom: 20px; /* Espaçamento abaixo do título */
         }
         nav {
-            background-color: #007BFF;
+            background-color: rgba(0, 123, 255, 0.8); /* Azul com transparência */
             border-radius: 8px;
             padding: 20px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -30,11 +35,12 @@
             margin: 0 10px;
         }
         a:hover {
-            background-color: #0056b3;
+            background-color: rgba(0, 86, 179, 0.8); /* Azul mais escuro ao passar o mouse */
         }
     </style>
 </head>
 <body>
+    <h1>Bem-vindo à Minha Página!</h1> <!-- Título adicionado -->
     <nav>
         <a href="professores.html">Professores</a>
         <a href="materias.html">Matérias</a>
