@@ -1,101 +1,106 @@
-body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(45deg, #ff6b6b, #f7b733);
-    margin: 0;
-    padding: 20px;
+#container{
+    width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
-    color: white;
+    font-size: 150%;
 }
 
-#container {
-    width: 80%;
-    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparente para um efeito de sobreposição */
-    border-radius: 20px;
-    padding: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+#tabela{
+    width: 100%;
 }
 
-h1 {
-    margin-bottom: 20px;
+.linhaTabela{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 3%;
+    border-bottom: .1rem solid gray;
+}
+
+.item{
+    width: 20%;
     text-align: center;
 }
 
-#tabela {
-    width: 100%;
-    margin-bottom: 20px;
-    /* Adicione estilos para a tabela, se necessário */
+.icone{
+    width: 2rem;
+    height: 2rem;
 }
 
-#areaBotao {
+.inicial {
+    width: 5%;
+    text-align: right;
+}
+
+.visualizar, .editar, .excluir{
+    width: 8%;
+    text-align: center;
+}
+
+#areaBotao{
     width: 100%;
     height: 3rem;
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    margin-top: 20px;
 }
 
-#botaoAdicionar {
-    border-radius: 5px;
-    padding: 10px 20px;
+#botaoAdicionar{
+    width: 5rem;
+    height: 5rem;
+    margin-top: 2rem;
+    border-radius: 50%;
     border: none;
-    background-color: #f7b733; /* Cor do botão */
-    color: white;
-    font-size: large;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    background-color: steelblue;
+    font-size: xx-large;
 }
 
-#botaoAdicionar:hover {
-    background-color: #ff6b6b; /* Cor do botão ao passar o mouse */
-}
-
-#caixaProfessor, #caixaMateria {
+#caixaProfessor, #caixaMateria{
     width: 80%;
-    background-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgb(251, 251, 251);
+    box-shadow: 1px 1px 1px 1px gray;
     padding: 15px;
-    border-radius: 10px;
-    margin: 10px auto;
+    border-radius: 20px;
 }
 
-.separador {
+#formulario{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.separador{
     margin-top: 1rem;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-left: 5%;
 }
 
-.separador > label {
-    width: 30%;
-    color: white; /* Para manter a legibilidade */
+.separador > label{
+    width: 25%;
 }
-
-.campo {
+.campo{
     background-color: white;
     border: none;
-    border-radius: 5px;
-    padding: 10px;
+    border-bottom: .1rem solid gray;
     width: 50%;
     text-align: center;
-    color: black;
 }
 
-.elementoFormulario {
+.elementoFormulario{
     outline: none;
-    font-size: large;
+    font-size: x-large;
 }
 
-.icone {
-    width: 2rem; /* Ajuste o tamanho do ícone */
-    height: 2rem; /* Ajuste o tamanho do ícone */
-}
-
-#botaoAdicionar {
+#botaoAdicionar{
     border-radius: 5px;
     width: 15%;
 }
