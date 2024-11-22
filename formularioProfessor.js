@@ -1,4 +1,4 @@
-const URL_API = 'https://backend-render-n7h9.onrender.com/professor/'
+const URL_API = 'https://backend-escola.onrender.com/professor/';
 const URL_REDICIONAMENTO = './professores.html'
 
 const urlParams = new URLSearchParams(window.location.search);

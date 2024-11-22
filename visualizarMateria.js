@@ -1,4 +1,4 @@
-const URL_API = "https://backend-render-n7h9.onrender.com/materia/"
+const URL_API = 'https://backend-escola.onrender.com/materia/';
 
 const urlParams = new URLSearchParams(window.location.search);
 var id = urlParams.get("id")
