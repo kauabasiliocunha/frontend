@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     background: linear-gradient(45deg, #ff6b6b, #f7b733);
@@ -23,6 +24,44 @@ h1 {
     text-align: center;
 }
 
+#tabela {
+    width: 100%;
+    margin-bottom: 20px;
+    /* Adicione estilos para a tabela, se necessário */
+}
+
+#areaBotao {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#botaoAdicionar {
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #f7b733; /* Cor do botão */
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#botaoAdicionar:hover {
+    background-color: #ff6b6b; /* Cor do botão ao passar o mouse */
+}
+
+#caixaProfessor, #caixaMateria {
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
 .separador {
     margin-top: 1rem;
     width: 100%;
@@ -34,6 +73,7 @@ h1 {
 
 .separador > label {
     width: 30%;
+    color: white; /* Para manter a legibilidade */
 }
 
 .campo {
@@ -53,17 +93,5 @@ h1 {
 
 #botaoAdicionar {
     border-radius: 5px;
-    width: 50%;
-    padding: 10px;
-    margin-top: 2rem;
-    border: none;
-    background-color: #f7b733; /* Cor do botão */
-    color: white;
-    font-size: large;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-#botaoAdicionar:hover {
-    background-color: #ff6b6b; /* Cor do botão ao passar o mouse */
+    width: 15%;
 }
