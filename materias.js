@@ -17,7 +17,7 @@ fetch(URL_API).then(function(response) {
     carregarTabela()
 }).catch(function(err) {
     alert(MENSAGEM_ERRO)
-    console.log( "Houve o seguinte problema: " + err )
+    console.log( "Houve o seguinte problema: " + Error )
 });
 
 function carregarTabela(){
